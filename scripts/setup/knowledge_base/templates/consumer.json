@@ -1,0 +1,24 @@
+{
+    "domain": "Consumer",
+    "facts": [
+        "Consumer purchased defective goods.",
+        "Seller failed to provide replacement."
+    ],
+    "issues": [
+        "Whether deficiency in service exists."
+    ],
+    "arguments": [
+        "Consumer sought compensation.",
+        "Seller denied manufacturing defect."
+    ],
+    "analysis": [
+        "Commission reviewed invoices and expert reports."
+    ],
+    "ratio": [
+        "Consumer entitled to compensation for proven deficiency."
+    ],
+    "decision": [
+        "Compensation Awarded",
+        "Complaint Dismissed"
+    ]
+}

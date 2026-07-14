@@ -1,0 +1,20 @@
+============================================================
+Barrister_AI Dataset Report
+============================================================
+
+Total Cases : 50
+
+Cases by Domain
+-------------------------
+Cheque Bounce : 15
+Consumer : 9
+Cyber Crime : 9
+Motor Accident : 8
+Murder : 9
+
+Label Distribution
+-------------------------
+Positive (1) : 26
+Negative (0) : 24
+
+Validation : PASSED

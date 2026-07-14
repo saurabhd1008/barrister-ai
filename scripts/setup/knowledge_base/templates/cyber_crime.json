@@ -1,0 +1,24 @@
+{
+    "domain": "Cyber Crime",
+    "facts": [
+        "Unauthorized access to computer resources.",
+        "Victim suffered financial loss."
+    ],
+    "issues": [
+        "Applicability of Information Technology Act."
+    ],
+    "arguments": [
+        "Digital evidence linked accused.",
+        "Defence challenged authenticity."
+    ],
+    "analysis": [
+        "Court examined electronic evidence."
+    ],
+    "ratio": [
+        "Electronic evidence must satisfy admissibility requirements."
+    ],
+    "decision": [
+        "Conviction",
+        "Acquittal"
+    ]
+}

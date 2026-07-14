@@ -1,0 +1,27 @@
+{
+    "domain": "Cheque Bounce",
+    "facts": [
+        "The accused issued a cheque towards repayment of debt.",
+        "The cheque was dishonoured due to insufficient funds.",
+        "A statutory notice was served upon the accused."
+    ],
+    "issues": [
+        "Whether Section 138 NI Act is attracted.",
+        "Whether legal notice requirements were fulfilled."
+    ],
+    "arguments": [
+        "Complainant proved legally enforceable debt.",
+        "Accused denied liability."
+    ],
+    "analysis": [
+        "Court examined bank memo and statutory notice.",
+        "Court verified limitation period."
+    ],
+    "ratio": [
+        "Dishonour of cheque constitutes offence under NI Act if statutory conditions are satisfied."
+    ],
+    "decision": [
+        "Conviction",
+        "Acquittal"
+    ]
+}

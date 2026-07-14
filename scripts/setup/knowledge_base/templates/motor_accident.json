@@ -1,0 +1,24 @@
+{
+    "domain": "Motor Accident",
+    "facts": [
+        "Road accident caused bodily injuries.",
+        "Insurance policy was valid."
+    ],
+    "issues": [
+        "Quantum of compensation."
+    ],
+    "arguments": [
+        "Claimant relied upon medical records.",
+        "Insurance company disputed negligence."
+    ],
+    "analysis": [
+        "Tribunal assessed disability percentage."
+    ],
+    "ratio": [
+        "Compensation should be just and reasonable."
+    ],
+    "decision": [
+        "Compensation Granted",
+        "Claim Rejected"
+    ]
+}
