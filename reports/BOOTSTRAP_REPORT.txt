@@ -1,0 +1,11 @@
+============================================================
+Barrister_AI Bootstrap Report
+============================================================
+
+Generated : 2026-07-14 13:09:42.826612
+
+Folders Created : 11
+Files Created   : 4
+
+Project Root
+C:\Users\hp\OneDrive\Desktop\IIT Kanpur\Barrister_AI

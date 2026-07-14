@@ -1,0 +1,22 @@
+[
+    {
+        "id": "COURT001",
+        "name": "Supreme Court of India"
+    },
+    {
+        "id": "COURT002",
+        "name": "Delhi High Court"
+    },
+    {
+        "id": "COURT003",
+        "name": "Bombay High Court"
+    },
+    {
+        "id": "COURT004",
+        "name": "Gujarat High Court"
+    },
+    {
+        "id": "COURT005",
+        "name": "District Court"
+    }
+]

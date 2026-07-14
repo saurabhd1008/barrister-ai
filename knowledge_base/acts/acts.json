@@ -1,0 +1,32 @@
+[
+    {
+        "id": "ACT001",
+        "name": "Negotiable Instruments Act",
+        "year": 1881,
+        "section": "138"
+    },
+    {
+        "id": "ACT002",
+        "name": "Bharatiya Nyaya Sanhita",
+        "year": 2023,
+        "section": "103"
+    },
+    {
+        "id": "ACT003",
+        "name": "Information Technology Act",
+        "year": 2000,
+        "section": "66"
+    },
+    {
+        "id": "ACT004",
+        "name": "Consumer Protection Act",
+        "year": 2019,
+        "section": "35"
+    },
+    {
+        "id": "ACT005",
+        "name": "Motor Vehicles Act",
+        "year": 1988,
+        "section": "166"
+    }
+]

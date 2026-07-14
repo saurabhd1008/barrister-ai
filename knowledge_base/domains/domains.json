@@ -1,0 +1,27 @@
+[
+    {
+        "id": "DOMAIN001",
+        "name": "Cheque Bounce",
+        "act_id": "ACT001"
+    },
+    {
+        "id": "DOMAIN002",
+        "name": "Murder",
+        "act_id": "ACT002"
+    },
+    {
+        "id": "DOMAIN003",
+        "name": "Cyber Crime",
+        "act_id": "ACT003"
+    },
+    {
+        "id": "DOMAIN004",
+        "name": "Consumer Complaint",
+        "act_id": "ACT004"
+    },
+    {
+        "id": "DOMAIN005",
+        "name": "Motor Accident",
+        "act_id": "ACT005"
+    }
+]
