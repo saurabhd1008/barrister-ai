@@ -1,0 +1,162 @@
+{
+    "module": "M4 - TF-IDF Legal Precedent Search",
+    "status": "PASSED",
+    "statistics": {
+        "cases_indexed": 50,
+        "documents_created": 50,
+        "vocabulary_size": 157,
+        "matrix_rows": 50,
+        "matrix_columns": 157,
+        "ngram_range": [
+            1,
+            2
+        ]
+    },
+    "validation_summary": {
+        "total_tests": 5,
+        "tests_passed": 5,
+        "tests_failed": 0
+    },
+    "validation_results": [
+        {
+            "test_number": 1,
+            "test_name": "Cheque Bounce Search",
+            "query": "Cheque issued by accused was dishonoured because of insufficient funds",
+            "expected_terms": [
+                "cheque",
+                "dishonour",
+                "insufficient"
+            ],
+            "results_returned": 3,
+            "top_similarity_score": 0.5548,
+            "top_similarity_percentage": 55.48,
+            "top_case": {
+                "case_id": "CASE0049",
+                "domain": "Cheque Bounce",
+                "act": "Negotiable Instruments Act",
+                "section": "138",
+                "court": "Madras High Court",
+                "facts": "The accused issued a cheque towards repayment of debt. A statutory notice was served upon the accused. The cheque was dishonoured due to insufficient funds.",
+                "issues": "Whether Section 138 NI Act is attracted.",
+                "arguments": "Accused denied liability.",
+                "analysis": "Court verified limitation period.",
+                "ratio": "Dishonour of cheque constitutes offence under NI Act if statutory conditions are satisfied.",
+                "decision": "Acquittal",
+                "label": 0
+            },
+            "passed": true
+        },
+        {
+            "test_number": 2,
+            "test_name": "Consumer Search",
+            "query": "Consumer purchased a defective product and seller refused replacement or refund",
+            "expected_terms": [
+                "consumer",
+                "defective",
+                "refund"
+            ],
+            "results_returned": 3,
+            "top_similarity_score": 0.5938,
+            "top_similarity_percentage": 59.38,
+            "top_case": {
+                "case_id": "CASE0037",
+                "domain": "Consumer",
+                "act": "Consumer Protection Act",
+                "section": "35",
+                "court": "Karnataka High Court",
+                "facts": "Consumer purchased defective goods. Seller failed to provide replacement.",
+                "issues": "Whether deficiency in service exists.",
+                "arguments": "Seller denied manufacturing defect.",
+                "analysis": "Commission reviewed invoices and expert reports.",
+                "ratio": "Consumer entitled to compensation for proven deficiency.",
+                "decision": "Compensation Awarded",
+                "label": 1
+            },
+            "passed": true
+        },
+        {
+            "test_number": 3,
+            "test_name": "Cyber Crime Search",
+            "query": "Victim lost money through phishing email and fraudulent online bank transaction",
+            "expected_terms": [
+                "cyber",
+                "phishing",
+                "fraud"
+            ],
+            "results_returned": 3,
+            "top_similarity_score": 0.2146,
+            "top_similarity_percentage": 21.46,
+            "top_case": {
+                "case_id": "CASE0036",
+                "domain": "Cyber Crime",
+                "act": "Information Technology Act",
+                "section": "66",
+                "court": "Bombay High Court",
+                "facts": "Unauthorized access to computer resources. Victim suffered financial loss.",
+                "issues": "Applicability of Information Technology Act.",
+                "arguments": "Defence challenged authenticity.",
+                "analysis": "Court examined electronic evidence.",
+                "ratio": "Electronic evidence must satisfy admissibility requirements.",
+                "decision": "Conviction",
+                "label": 1
+            },
+            "passed": true
+        },
+        {
+            "test_number": 4,
+            "test_name": "Motor Accident Search",
+            "query": "Road accident caused by negligent driving resulted in bodily injury and compensation claim",
+            "expected_terms": [
+                "accident",
+                "negligent",
+                "compensation"
+            ],
+            "results_returned": 3,
+            "top_similarity_score": 0.5381,
+            "top_similarity_percentage": 53.81,
+            "top_case": {
+                "case_id": "CASE0048",
+                "domain": "Motor Accident",
+                "act": "Motor Vehicles Act",
+                "section": "166",
+                "court": "Bombay High Court",
+                "facts": "Road accident caused bodily injuries. Insurance policy was valid.",
+                "issues": "Quantum of compensation.",
+                "arguments": "Insurance company disputed negligence.",
+                "analysis": "Tribunal assessed disability percentage.",
+                "ratio": "Compensation should be just and reasonable.",
+                "decision": "Claim Rejected",
+                "label": 0
+            },
+            "passed": true
+        },
+        {
+            "test_number": 5,
+            "test_name": "Murder Search",
+            "query": "Accused intentionally caused death using a deadly weapon",
+            "expected_terms": [
+                "murder",
+                "death",
+                "weapon"
+            ],
+            "results_returned": 3,
+            "top_similarity_score": 0.531,
+            "top_similarity_percentage": 53.1,
+            "top_case": {
+                "case_id": "CASE0008",
+                "domain": "Murder",
+                "act": "Indian Penal Code",
+                "section": "302",
+                "court": "Bombay High Court",
+                "facts": "Medical evidence supported prosecution. Eyewitness testimony was produced. Accused allegedly caused death using a deadly weapon.",
+                "issues": "Whether ingredients of Section 302 IPC are established.",
+                "arguments": "Prosecution relied upon eyewitnesses.",
+                "analysis": "Court evaluated motive and forensic evidence.",
+                "ratio": "Prosecution must establish guilt beyond reasonable doubt.",
+                "decision": "Acquittal",
+                "label": 0
+            },
+            "passed": true
+        }
+    ]
+}
