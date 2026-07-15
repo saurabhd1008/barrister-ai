@@ -1,0 +1,25 @@
+{
+    "domain": "Murder",
+    "facts": [
+        "Accused allegedly caused death using a deadly weapon.",
+        "Eyewitness testimony was produced.",
+        "Medical evidence supported prosecution."
+    ],
+    "issues": [
+        "Whether ingredients of Section 302 IPC are established."
+    ],
+    "arguments": [
+        "Prosecution relied upon eyewitnesses.",
+        "Defence questioned credibility."
+    ],
+    "analysis": [
+        "Court evaluated motive and forensic evidence."
+    ],
+    "ratio": [
+        "Prosecution must establish guilt beyond reasonable doubt."
+    ],
+    "decision": [
+        "Conviction",
+        "Acquittal"
+    ]
+}

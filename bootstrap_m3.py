@@ -24,7 +24,15 @@ from pathlib import Path
 
 random.seed(42)
 
-ROOT = Path(__file__).parent
+# Automatically locate the project root
+ROOT = Path(__file__).resolve().parent
+
+while not (ROOT / "src").exists():
+
+    if ROOT == ROOT.parent:
+        raise Exception("Project root not found!")
+
+    ROOT = ROOT.parent
 
 TEMPLATE_FOLDER = ROOT / "knowledge_base" / "templates"
 GENERATED_FOLDER = ROOT / "knowledge_base" / "generated"
