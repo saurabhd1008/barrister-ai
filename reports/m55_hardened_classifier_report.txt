@@ -1,0 +1,28 @@
+============================================================
+BARRISTER_AI - M5.5 HARDENED CLASSIFIER
+============================================================
+Accuracy  : 0.7875
+Precision : 0.7805
+Recall    : 0.8000
+F1-score  : 0.7901
+ROC-AUC   : 0.8497
+
+Average Cosine Similarity
+Relevant     : 0.7713
+Not relevant : 0.3443
+
+Confusion Matrix
+True negatives  : 31
+False positives : 9
+False negatives : 8
+True positives  : 32
+
+Classification Report
+              precision    recall  f1-score   support
+
+Not Relevant     0.7949    0.7750    0.7848        40
+    Relevant     0.7805    0.8000    0.7901        40
+
+    accuracy                         0.7875        80
+   macro avg     0.7877    0.7875    0.7875        80
+weighted avg     0.7877    0.7875    0.7875        80
